@@ -59,11 +59,11 @@ int main()
     Stack c;
     c.push(2);
     c.push(13);
-    cout << c.top() << " ";
+    cout << c.top() << endl;
     c.pop();
-    cout << c.top() << " ";
+    cout << c.top() << endl;
     c.pop();
-    cout << c.empty() << " ";
+    cout << c.empty() << endl;
 
 }
 
