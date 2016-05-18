@@ -108,9 +108,6 @@ int main()
         int temp;
         cin >> temp;
         heap.push(temp);
-
-        cerr << "after putting " << temp << endl;
-        heap.show(0);
     }
 
     heapsort(n, heap);
